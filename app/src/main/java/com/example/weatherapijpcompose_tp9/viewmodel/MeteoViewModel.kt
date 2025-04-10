@@ -99,10 +99,10 @@ class MeteoViewModel(application: Application) : AndroidViewModel(application) {
     fun getWeatherIconResource(condition: String): Int {
         return when (condition) {
             "Rain" -> com.example.weatherapijpcompose_tp9.R.drawable.rainy
-            "Clear" -> com.example.weatherapijpcompose_tp9.R.drawable.clear
-            "Thunderstorm" -> com.example.weatherapijpcompose_tp9.R.drawable.thunderstorm
+            "Clear" -> com.example.weatherapijpcompose_tp9.R.drawable.day
+            "Thunderstorm" -> com.example.weatherapijpcompose_tp9.R.drawable.thunder
             "Clouds" -> com.example.weatherapijpcompose_tp9.R.drawable.cloudy
-            else -> com.example.weatherapijpcompose_tp9.R.drawable.meteo
+            else -> com.example.weatherapijpcompose_tp9.R.drawable.weather
         }
     }
 }
