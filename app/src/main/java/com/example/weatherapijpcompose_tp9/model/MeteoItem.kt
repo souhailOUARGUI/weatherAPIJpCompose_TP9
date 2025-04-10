@@ -1,6 +1,6 @@
 package com.example.weatherapijpcompose_tp9.model
 
-public class MeteoItem(
+data class MeteoItem(
     val temperature: Int,
     val tempMax: Int,
     val tempMin: Int,
